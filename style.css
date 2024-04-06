@@ -1,0 +1,72 @@
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+tr, th, td {
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+}
+td {
+  color: black;
+}
+th {
+  background: seagreen;
+  color: white;
+}
+tr:hover {
+  background: wheat;
+}
+.wrapper {
+  overflow-x: auto;
+  margin: 2%;
+}
+.logo {
+  display: flex;
+  background: seagreen;
+  box-shadow: 0px 3px 12px;
+  justify-content: center;
+}
+h1 {
+  color: white;
+}
+h1:hover {
+  color: wheat;
+}
+
+body {
+  margin: 0%;
+  background: url(fundo.png);
+}
+img {
+  height: 59px;
+  margin: 8px;
+}
+h3 {
+  color: green;
+  text-align: center;
+}
+.mm {
+  display: flex;
+  justify-content: center;
+}
+.mmm {
+ width: 96%;
+ height: 100%;
+}
+h4 {
+  text-align: center;
+  color: green;
+}
+.hh {
+  display: flex;
+  border: 3px solid seagreen;
+  margin: 2%;
+}
+ul {
+  color: green;
+}
+td span {
+  border: 10px solid greenyellow;
+}
